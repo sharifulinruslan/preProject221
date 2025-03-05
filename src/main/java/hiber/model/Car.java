@@ -11,9 +11,6 @@ public class Car {
     private String model;
     private int series;
 
-    @OneToOne(mappedBy = "car")
-    private User user_owner;
-
     public Car() {
     }
 
